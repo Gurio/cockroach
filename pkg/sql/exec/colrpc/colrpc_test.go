@@ -535,6 +535,7 @@ func BenchmarkOutboxInbox(b *testing.B) {
 	wg.Wait()
 }
 
+// TODO: PLEASE DO THAT
 // I think we really do this same thing multple times.
 // I didn't change the connection establishment in other TCs, but someone aproves I would do it.
 func initConnectedStreams(
